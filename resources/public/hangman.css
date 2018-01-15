@@ -1,0 +1,15 @@
+
+div, h1, input {
+    font-family: HelveticaNeue, Helvetica;
+    color: #777;
+}
+
+
+
+.ImageBorder1
+{
+    border-width: 1px;
+    border-color: Black;
+    padding: 1px;
+    border:  thin solid black;
+}

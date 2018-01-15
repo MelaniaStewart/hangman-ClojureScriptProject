@@ -1,0 +1,106 @@
+(get v-word index)
+v-word
+exit
+simple.core/guess-div
+lein clojurescript lein
+exit
+(def v [:option {:value "A"} "A"])
+(v)
+v
+(v 0)
+(v 1)
+(0 v)
+(get v 0)
+(def m (get v 1))
+m
+(get m :value)
+(m :value)
+(:value)
+(:value m)
+(def s [[:option {:value "A"} "A"]
+[:option {:value "B"}]
+[:option {:value "B"} "B"]
+[:option {:value "C"} "C"]])
+s
+(def s1 [[:option {:value "A"} "A"]
+[:option {:value "B"} "B"]
+[:option {:value "C"} "C"])
+(def s1 [[:option {:value "A"} "A"]
+[:option {:value "B"} "B"]
+[:option {:value "C"} "C"]])
+s1
+(rest s1)
+(type *1)
+(vec (rest s1))
+(type *1)
+(even? 2)
+(take 1 s1)
+(into [] s1)
+(into [] (map inc [1 2 3])
+)
+(repeat 0)
+(take 10 (repeat 0))
+(type (repeat 0))
+(take 3 (take 10 (repeat :a)))
+s1
+(= "B" (get s1 1))
+(= "B" (get s1 2))
+(= "B" (get s1 3))
+(= "B" (:vakye (get s1 3)))
+(= "B" (:vakye (get s1 2)))
+(= "B" (:vakye (get s1 1)))
+(= "B" (:value (get s1 1)))
+(= "B" (:value (get s1 2)))
+(= "B" (:value (get s1 3)))
+(get s1 3)
+(s1)
+(get s1 1)
+(:value (get s1 1))
+(get s1 1)
+(get (get s1 1) 1)
+(:value (get (get s1 1) 1))
+(:value (get (get s1 2) 1))
+(:value (get (get s1 0) 1))
+(=B (:value (get (get s1 0) 1)))
+(= "B" (:value (get (get s1 0) 1)))
+(= "B" (:value (get (get s1 1) 1)))
+(= "B" (:value (get (get s1 2) 1)))
+(= "B" (:value (get (get s1 0) 1)))
+(=B (:value (get (get s1 0) 1)))
+(= "B" (:value (get (get s1 0) 1)))
+(= "B" (:value (get (get s1 1) 1)))
+(remove (= "B" (:value (get s1 1))))
+(remove #(= "B" (:value (get %  1)) s1))
+(remove #(= "B" (:value (get %  1))) s1)
+(str a "B)
+a
+)
+exit
+quit
+c
+exit
+)))))
+str
+()
+a
+(A)
+(a)
+quit
+exit
+quit
+)
+_
+#_
+quit
+c
+(str "A")
+(take 10 (repeat 0))
+quit
+(str letter \tab)
+(str letter "\tab")
+exit
+(str letter "\tab")
+(str "_" "\tab")
+(str "_" "&nbsp")
+(str "_" "&nbsp;")
+exit
